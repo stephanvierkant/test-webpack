@@ -1,0 +1,25 @@
+{
+    "name": "stephanvierkant/test-webpack",
+    "require": {
+        "symfony/flex": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stephanvierkant\\TestWebpack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stephan",
+            "email": "stephan@vierkant.net"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "require-dev": {
+        "symfony/webpack-encore-bundle": "^2.1"
+    }
+}
